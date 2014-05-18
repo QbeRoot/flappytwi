@@ -1,0 +1,59 @@
+#canvas {
+	position: absolute;
+	z-index: 1;
+}
+
+#display {
+	color: white;
+	font-family: Impact, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	left: 5px;
+	position: absolute;
+	right: 5px;
+	text-align: center;
+	text-shadow: 0 0 10px black;
+	top: 5px;
+	z-index: 3;
+}
+
+#ground {
+	background: #DED794 url('img/ground.png') repeat-x;
+	bottom: 0;
+	height: 94px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+}
+
+p#hint {
+	float: right;
+	margin-top: 24px;
+	text-align: center;
+	width: 288px;
+}
+
+#parent {
+	background: #A3DCE7 url('img/bg.png') no-repeat;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+	width: 288px;
+}
+
+#parent * {
+	margin: 0;
+	padding: 0;
+}
+
+#scrolling {
+	height: 100%;
+	left: 0;
+	padding-left: 144px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	white-space: nowrap;
+	z-index: 0;
+}
